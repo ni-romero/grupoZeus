@@ -142,11 +142,30 @@ background-size: 100% 100%;
     background-color: black!important;
 }
 .btn-link{
-    color:  rgb(91, 2, 150)!important;
- 
+    color:  rgb(91, 2 ,150)!important;
+    font-size: large!important;
+    border-top: solid 1.5px rgb(91, 2 ,150)!important;
+    /* border-left: solid 1.5px rgb(91, 2 ,150)!important; */
+}
+.btn-link:hover{
+    color:  rgb(241, 240, 241)!important;
+    font-size: large!important;
+}
+.linea{
+  color: rgb(91, 2 ,150);  
+  border: solid 1px violet;
 }
 .accordion{
-    border: solid 1px black!important;
+    border: none!important;
+}
+.card{
+    border:none!important;
+}
+.imgcharla{
+    height: 90vh;
+    width:100% ;
+    background-size: 100% 100%;
+
 }
 .redes{
     
@@ -177,7 +196,7 @@ background-size: 100% 100%;
         font-size: 2rem;
     }
     .uno{
-        height: 110vh;
+        height: 90vh;
     }
     .softwareFac{
         display: none;
@@ -189,17 +208,12 @@ background-size: 100% 100%;
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
-   
-    /* .imgServicio{
-        height: 30vh;
-        width:70vw;
-    } */
     .contacto-formu{
         height: 90vh;
         max-width: 100vw;
     }
     .contacto-mapa{
-        height: 50vh;
+        height: 100vh;
         max-width: 100vw!important; 
     }
 
@@ -214,6 +228,12 @@ background-size: 100% 100%;
 }
 .parrafoServ{
     display: none;
+}
+.imgcharla{
+    height:90vh!important;
+    width:100% ;
+    background-size: 100% 100%;
+
 }
 }
 @media (min-width: 760px) and (max-width: 998px){

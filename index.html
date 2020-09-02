@@ -35,13 +35,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Servicios <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#servicios">Servicios <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Nosotros </a>
+                        <a class="nav-link" href="#nosotros">Nosotros </a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#" tabindex="-1">Cursos</a>
+                        <a class="nav-link" href="#cursos" tabindex="-1">Cursos</a>
                     </li>
                 </ul>
 
@@ -88,26 +88,17 @@
         </div>
 
         <!--COMIENZA NOSOTROS-->
-        <div class="row">
+        <div class="row"id="nosotros">
 
             <div class="col-xs-8 col-md-8 col-lg-8 col-xl-8 uno p-5">
                 <h1 class="text-center primero"> NOSOTROS</h1>
                 <br> <br>
-                <h4 class="text-center fuenteDos m-auto"> <br> Profesionales con enfoque en la ciberseguridad, desde un
+                <h3 class="text-center fuenteDos m-auto p-5"> <br> Profesionales con enfoque en la ciberseguridad, desde un
                     punto de vista del ámbito académico y dar soluciones a temas de seguridad informática a empresas,
-                    servicios públicos y áreas de gobierno.</h4>
+                    servicios públicos y áreas de gobierno.</h3>
 
                 <br>
-                <h5 class="text-center text-white fuenteDos">Análisis de Vulnerabilidad [AV] <br>
-                    Consiste en un escaneo a través de internet sobre la arquitectura tecnológica de una empresa en
-                    búsqueda de vulnerabilidades, permitiendo evaluar el nivel de seguridad de los sistemas y
-                    dispositivos que conforman su infraestructura de red. Análisis de Vulnerabilidad facilita la
-                    prevención de eventuales amenazas que puedan afectar los sistemas informáticos de una empresa,
-                    detectando debilidades en la seguridad y permitiendo realizar las acciones necesarias para
-                    contrarrestarlas.</h5>
-
-                <button type="button" class="btn btn-outline-secondary btnNosotros form-control">Conocer
-                    más</button>
+                    <hr class="linea">
             </div>
             <div class="col-xs-3 col-md-4 col-lg-4 col-xl-4 Nosotros-colum p-5">
                
@@ -115,7 +106,7 @@
         </div>
         <!--TERMINA NOSOTROS-->
         <!--COMIENZA SERVICIOS-->
-        <div class="row serviciosolo d-flex justify-content-center p-2">
+        <div class="row serviciosolo d-flex justify-content-center p-2"id="servicios">
             <h1 class="text-center text-white primero"> SERVICIOS</h1>
         </div>
 
@@ -131,9 +122,9 @@
                         <img src="./fotis-fotopoulos-DuHKoV44prg-unsplash.jpg" class="card-img" alt="Curso virtual"
                             class="imgSer">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">Cursos virtuales</h5>
-                            <a href="" class="btn btn-primary">Ver más</a>
+                          
                         </div>
+                        <button class="form-control btn btn-primary my-2"> ver mas</button>
                     </div>
 
                 </div>
@@ -147,9 +138,8 @@
                     <div class="card bg-dark text-white">
                         <img src="./capacitac-2.jpg" class="card-img" alt="Capacitacion academica" class="imgSer">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-                            <a href="" class="btn btn-primary">Ver más</a>
                         </div>
+                        <button class="form-control btn btn-primary my-2"> ver mas</button>
                     </div>
 
 
@@ -164,9 +154,8 @@
                     <div class="card bg-dark text-white">
                         <img src="./informat.jpg" class="card-img" alt="..." class="imgSer">
                         <div class="card-img-overlay">
-                            <h5 class="card-title">Card title</h5>
-                            <a href="" class="btn btn-primary" id="modaltres"> Ver más</a>
                         </div>
+                        <button class="form-control btn btn-primary my-2"> ver mas</button>
                     </div>
 
 
@@ -181,18 +170,18 @@
             <div class="col-xs-4 col-md-4 col-lg-4 col-xl-4 softwareFac">
 
             </div>
-            <div class="col-xs-8 col-md-8 col-lg-8 col-xl-8 softwareFac2 p-4">
+            <div class="col-xs-8 col-md-8 col-lg-8 col-xl-8 softwareFac2 p-5">
                 <h1 class="text-center text-white primero">Software Factory</h1>
 
-                <div class="accordion" id="accordionExample">
-                    <div class="card text-white">
+                <div class="accordion border-dark" id="accordionExample">
+                    <div class="card">
                         <div class="card-header" id="headingOne">
-                            <h2 class="mb-0">
+                            <h1 class="mb-0">
                                 <button class="btn btn-link" type="button" data-toggle="collapse"
                                     data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                                     DISEÑO SEGURO
                                 </button>
-                            </h2>
+                            </h1>
                         </div>
 
                         <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
@@ -266,19 +255,20 @@
         </div>
 
         <!--TERMINA SOFTWARE FAC-->
-        <!--COMIENZA COTACTO-->
-        <div class="row">
+        <!--COMIENZA INSCRIPCIONES-->
+        <div class="row"id="cursos">
 
             <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6 contacto-formu p-5">
-                <h1 class="text-center text-white primero">Contacto</h1>
+                <h1 class="text-center text-white primero">Inscripciones</h1>
                 <form>
 
                     <label class="text-white">Nombre</label>
                     <input class="form-control" type="text" placeholder="ingrese Nombre Completo" name="nombre">
-                    <label class="text-white">Email</label>
-                    <input class="form-control" type="text" placeholder="Email" name="email">
-                    <label class="text-white">Celular</label>
-                    <input class="form-control" type="text" placeholder="Ingrese numero sin 0 ni 15" name="celular">
+                    <label class="text-white">Profesion</label>
+                    <input class="form-control" type="text" placeholder="Profesion" name="email">
+                    <label class="text-white">¿Pertenece a una empresa o institucion?</label>
+                    <input class="form-control" type="text" placeholder="Indique si es profesional privado o estudiante" 
+                    name="empresa">
                     <label class="text-white" for="exampleFormControlSelect1">Seleccione país</label>
                     <select class="form-control" id="exampleFormControlSelect1">
                         <option>1</option>
@@ -293,18 +283,18 @@
                 </form>
             </div>
             <div class="col-xs-12 col-md-12 col-lg-6 col-xl-6 contacto-mapa p-5">
-                <h2 class="text-center text-white redes mb-5">Dejanos tu email o seguinos en nuestras redes</h2>
-                <div class="d-flex justify-content-center p-3">
-                    <i class="fab fa-whatsapp fa-4x text-center text-success m-5"></i>
-                    <i class="fab fa-facebook-f fa-4x text-center text-primary m-5"></i>
-                    <i class="fab fa-twitter fa-4x text-center text-info m-5"></i>
+             <img src="./charla.jpg" alt="charlasDelitosInformaticos" class="imgcharla">
                 </div>
                 
             
-
+   <!-- <h5 class="text-center text-white redes p-5 mb-5">Dejanos tu email o seguinos en nuestras redes</h5>
+                <div class="d-flex justify-content-center p-3">
+                    <i class="fab fa-whatsapp fa-4x text-center text-success m-5"></i>
+                    <i class="fab fa-facebook-f fa-4x text-center text-primary m-5"></i>
+                    <i class="fab fa-twitter fa-4x text-center text-info m-5"></i> -->
             </div>
         </div>
-        <!--TERMINA CONTACTO-->
+        <!--TERMINA INSCRIPCIONES-->
         <!--EMPIEZA MODAL-->
         <div class="modal" tabindex="-1" role="dialog" id="modaltres">
             <div class="modal-dialog" role="document">
