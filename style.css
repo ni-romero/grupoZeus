@@ -162,10 +162,15 @@ background-size: 100% 100%;
     border:none!important;
 }
 .imgcharla{
-    height: 90vh;
+    height: 80vh;
     width:100% ;
     background-size: 100% 100%;
 
+}
+.botonserv{
+    background-color: rgb(91, 2 ,150)!important;
+    color: white!important;
+    border: none!important;
 }
 .redes{
     
